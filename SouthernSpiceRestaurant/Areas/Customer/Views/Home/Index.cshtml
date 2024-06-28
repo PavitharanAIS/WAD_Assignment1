@@ -1,0 +1,138 @@
+﻿@model IEnumerable<Dish>
+
+@{
+    var counter = 0;
+    var dishMenuId = 0;
+}
+@foreach (var dishId in Model)
+ {
+@*     string modalId = "exampleModalCenter_" + dishId.Id;
+
+    <!-- Modal -->
+    <div class="modal fade exampleModalCenterTitle" id="@modalId" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@dishId.Name</h5>
+                    <button type="button" id="closeBtn" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>@dishId.Description</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="mainCloseBtn" class="btn custom-btn-black" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div> *@
+
+
+    if (dishId.MenuItems.Id != dishMenuId)
+    {
+
+         dishMenuId = dishId.MenuItems.Id;
+
+            <div class="carousel-body">
+                <section class="card-slider-section">
+                    <div id="mySwiper_@dishMenuId" class="swiper mySwiper carousel-container">
+                        <div class="swiper-wrapper content">
+                
+               
+                                @foreach (var dish in Model)
+                                {
+
+                                    if (dish.MenuId == dishMenuId)
+                                    {
+                                        <div class="swiper-slide carousel-card">
+
+                                            <div class="card-content">
+                                                <div class="image">
+                                                    <img src="@dish.ImageUrl" alt="Image of @dish.Name" />
+                                                </div>
+
+                                                <div class="name-price">
+                                                    <span class="name">@dish.Name</span>
+                                                    <span class="price">Price: $@dish.Price</span>
+                                                </div>
+
+                                                <div class="button">
+                                                    <button id="addToCartBtn_@dish.Id" class="btn-addToCart">Add to Cart</button>
+
+                                                    <div id="quantityBtn_@dish.Id" class="btn-quantity d-none">
+                                                        <button class="btn custom-btn-pumpkin btn-quantity-plus"><i class="bi bi-plus"></i></button>
+                                                        <span>@counter</span>
+                                                        <button class="btn custom-btn-pumpkin btn-quantity-minus"><i class="bi bi-dash"></i></button>
+                                                    </div>
+
+                                                </div>
+
+                                                <div>
+                                                    <a asp-area="Customer" asp-controller="Home" asp-action="DishDetails" asp-route-dishId="@dish.Id" class="btn custom-btn-pumpkin btn-details">Details</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    }
+                                }                 
+
+                        </div>
+                    </div>
+
+
+                    <div id="swiper-button-next_@dishMenuId" class="swiper-button-next"></div>
+                    <div id="swiper-button-prev_@dishMenuId" class="swiper-button-prev"></div>
+                    <div id="swiper-pagination_@dishMenuId" class="swiper-pagination"></div>
+        
+
+                </section>
+
+            </div>
+    }
+ }
+
+
+@* <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+
+
+
+    @section Scripts {
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        @*<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>*@
+        <script src="~/js/swiper.js"></script>
+
+        <script type="text/javascript">
+            var dishes = @Html.Raw(Json.Serialize(Model));
+        </script>
+
+        <script src="~/js/dishDetailModal.js"></script>
+
+        
+    }

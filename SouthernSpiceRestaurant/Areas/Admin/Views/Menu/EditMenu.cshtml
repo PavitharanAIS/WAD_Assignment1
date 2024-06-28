@@ -1,0 +1,53 @@
+﻿@model MenuItems
+
+<div class="container w-75 d-flex justify-content-center align-items-center custom-create-menu-container">
+    <div class="border custom-create-menu-pad rounded-4 custom-core-bg-color">
+        <form method="post">
+            <input asp-for="Id" hidden />
+
+            <div class="row border rounded-4 p-4 bg-white">
+                <div class="pb-2">
+                    <h2 style="color: #FC8019">Edit Menu</h2>
+                    <hr />
+                </div>
+                <div asp-validation-summary="All"></div>
+                <div class="mb-3">
+                    <label asp-for="Name" class="col-form-label"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter New Menu">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="DisplayOrder" class="col-form-label"></label>
+                    <input asp-for="DisplayOrder" class="form-control" placeholder="Enter Display Order Number">
+                    <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="btn-group justify-content-end">
+                            <div class="col-sm-auto">
+                                <button  type="submit" class="btn btn-primary custom-core-bg-color custom-margin-small" style="color: #ffffff; margin-top: 0.5rem; margin-left: 1rem; width: 7rem;">
+                                    Update
+                                </button>
+                            </div>
+                            <div class="col-sm-auto">
+                                <a asp-area="Admin" asp-controller="Menu" asp-action="Index" class="btn custom-btn-black custom-margin-small" style="margin-top: 0.5rem; margin-left: 1rem; width: 7rem;">
+                                    Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@*So far we've done server side user input validation. But now we're doing client-side validation using jQuery for eliminating any delays in response and enabling quick validation.
+    For client side validation, we're calling 'Partial Views' i.e. the views that are located in Views/Shared/ *@
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

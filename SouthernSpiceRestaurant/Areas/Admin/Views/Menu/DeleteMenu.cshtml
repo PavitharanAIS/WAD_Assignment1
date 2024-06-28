@@ -1,0 +1,43 @@
+﻿@model MenuItems
+
+<div class="container w-75 d-flex justify-content-center align-items-center custom-create-menu-container">
+    <div class="border custom-create-menu-pad rounded-4 custom-core-bg-color">
+        <form method="post">
+            <input asp-for="Id" hidden /> 
+
+            <div class="row border rounded-4 p-4 bg-white">
+                <div class="pb-2">
+                    <h2 style="color: #FC8019">Delete Menu</h2>
+                    <hr />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="col-form-label"></label>
+                    <input asp-for="Name" disabled class="form-control" placeholder="Enter New Menu">
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="DisplayOrder" class="col-form-label"></label>
+                    <input asp-for="DisplayOrder" disabled class="form-control" placeholder="Enter Display Order Number">
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="btn-group justify-content-end">
+                            <div class="col-sm-auto">
+                                <button type="submit" class="btn btn-danger custom-margin-small" style="color: #ffffff; margin-top: 0.5rem; margin-left: 1rem; width: 7rem;">
+                                    Delete
+                                </button>
+                            </div>
+                            <div class="col-sm-auto">
+                                <a asp-area="Admin" asp-controller="Menu" asp-action="Index" class="btn custom-btn-black custom-margin-small" style="margin-top: 0.5rem; margin-left: 1rem; width: 7rem;">
+                                    Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

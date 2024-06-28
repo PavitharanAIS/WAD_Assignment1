@@ -1,0 +1,13 @@
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\bin\Release\net8.0\SSR.Models.deps.json
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\bin\Release\net8.0\SSR.Models.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\bin\Release\net8.0\SSR.Models.pdb
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.csproj.AssemblyReference.cache
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.AssemblyInfoInputs.cache
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.AssemblyInfo.cs
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.csproj.CoreCompileInputs.cache
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.sourcelink.json
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\refint\SSR.Models.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\SSR.Models.pdb
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Models\obj\Release\net8.0\ref\SSR.Models.dll

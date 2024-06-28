@@ -1,0 +1,13 @@
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\bin\Debug\net8.0\SSR.Utility.deps.json
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\bin\Debug\net8.0\SSR.Utility.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\bin\Debug\net8.0\SSR.Utility.pdb
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.csproj.AssemblyReference.cache
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.AssemblyInfoInputs.cache
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.AssemblyInfo.cs
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.csproj.CoreCompileInputs.cache
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.sourcelink.json
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\refint\SSR.Utility.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\SSR.Utility.pdb
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SSR.Utility\obj\Debug\net8.0\ref\SSR.Utility.dll

@@ -1,0 +1,94 @@
+﻿@model DishViewModel 
+
+<div class="container w-75 d-flex justify-content-center align-items-center">
+    <div class="border custom-create-menu-pad rounded-4 custom-core-bg-color">
+        <form method="post" enctype="multipart/form-data"> @* enctype="multipart/form-data" is used so that image file upload is supported. *@
+            <input asp-for="@Model.Dish.Id" hidden />
+            <input asp-for="@Model.Dish.ImageUrl" hidden />
+
+            
+            <div class="row border rounded-4 p-4 bg-white">
+                <div class="pb-2">
+                    <h2 style="color: #FC8019">@(Model.Dish.Id != 0 ? "Edit" : "Create") Dish</h2>
+                    <hr />
+                </div>
+                @*<div asp-validation-summary="ModelOnly"></div> *@
+                <div class="mb-3">
+                    <label asp-for="@Model.Dish.Name" class="col-form-label"></label>
+                    <input asp-for="@Model.Dish.Name" class="form-control" placeholder="Enter New Dish">
+                    <span asp-validation-for="@Model.Dish.Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="@Model.Dish.Description" class="col-form-label"></label>
+                    <textarea asp-for="@Model.Dish.Description" class="form-control" placeholder="Enter Dish Description"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="@Model.Dish.Price" class="col-form-label"></label>
+                    <input asp-for="@Model.Dish.Price" class="form-control" placeholder="Enter Price">
+                    <span asp-validation-for="@Model.Dish.Price" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="@Model.Dish.ImageUrl" class="col-form-label"></label>
+                    <input type="file" name="file" asp-for="@Model.Dish.ImageUrl" class="form-control" placeholder="Add Image">
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="@Model.Dish.MenuId" class="col-form-label"></label>
+                    <select asp-for="@Model.Dish.MenuId" asp-items="@Model.MenuItemsList" class="form-select">
+                        <option disabled selected>--Select Menu--</option>
+                    </select>
+                    <span asp-validation-for="@Model.Dish.MenuId" class="text-danger"></span>
+                </div>
+
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-xl-auto col-lg-3 col-md-4 col-sm-6">
+
+                            @if (Model.Dish.Id != 0)
+                            {
+                                <button type = "submit" class="btn custom-btn-pumpkin" style="margin-top: 0.5rem; width: 7rem;">
+                                            Update</button>
+                            }
+                            else
+                            {
+                                <button type = "submit" class="btn custom-btn-pumpkin" style="margin-top: 0.5rem; width: 7rem;">
+                                            Create</button>
+                            }
+                            
+                        </div>
+                        <div class="col-xl-auto col-lg-3 col-md-6 col-sm-6">
+                            <a asp-area="Admin" asp-controller="Dish" asp-action="Index" class="btn custom-btn-black" style="margin-top: 0.5rem; width: 7rem;">
+                                Back to List
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@*So far we've done server side user input validation. But now we're doing client-side validation using jQuery for eliminating any delays in response and enabling quick validation.
+    For client side validation, we're calling 'Partial Views' i.e. the views that are located in Views/Shared/ *@
+
+@section Scripts{
+    <script>
+        tinymce.init({
+          selector: 'textarea',
+          plugins: 'anchor autolink charmap codesample emoticons lists table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+          tinycomments_mode: 'embedded',
+          tinycomments_author: 'Author name',
+          mergetags_list: [
+            { value: 'First.Name', title: 'First Name' },
+            { value: 'Email', title: 'Email' },
+          ],
+          ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        });
+    </script>
+    @{ 
+        <partial name="_ValidationScriptsPartial"/>
+    }}

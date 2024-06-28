@@ -1,0 +1,48 @@
+﻿@model MenuItems 
+
+<div class="container w-75 d-flex justify-content-center align-items-center custom-create-menu-container">
+    <div class="border custom-create-menu-pad rounded-4 custom-core-bg-color">
+        <form method="post">
+
+            <div class="row border rounded-4 p-4 bg-white">
+                <div class="pb-2">
+                    <h2 style="color: #FC8019">Create Menu</h2>
+                    <hr />
+                </div>
+                @*<div asp-validation-summary="ModelOnly"></div> *@
+                <div class="mb-3">
+                    <label asp-for="Name" class="col-form-label"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter New Menu">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="DisplayOrder" class="col-form-label"></label>
+                    <input asp-for="DisplayOrder" class="form-control" placeholder="Enter Display Order Number">
+                    <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+                </div>
+
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-xl-auto col-lg-3 col-md-4 col-sm-6">
+                            <button type="submit" class="btn custom-btn-pumpkin" style="margin-top: 0.5rem; width: 7rem;">
+                                Create</button>
+                        </div>
+                        <div class="col-xl-auto col-lg-3 col-md-6 col-sm-6">
+                            <a asp-area="Admin" asp-controller="Menu" asp-action="Index" class="btn custom-btn-black" style="margin-top: 0.5rem; width: 7rem;">
+                                Back to List
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@*So far we've done server side user input validation. But now we're doing client-side validation using jQuery for eliminating any delays in response and enabling quick validation.
+    For client side validation, we're calling 'Partial Views' i.e. the views that are located in Views/Shared/ *@
+
+@section Scripts{
+    @{ 
+        <partial name="_ValidationScriptsPartial"/>
+    }}

@@ -1,0 +1,39 @@
+﻿@model List<Dish>
+
+<div class="container py-2 px-0">
+    <div class="row">
+        <div class="col-6">
+            <h2 style="color: #FC8019;">
+                Dish List
+            </h2>
+        </div>
+        <div class="col-6 text-end align-content-center">
+            <a asp-area="Admin" asp-controller="Dish" asp-action="CreateOrEditDish" class="btn custom-btn-pumpkin">
+                <i class="bi bi-plus-circle"></i> Create New Dish
+            </a>
+        </div>
+    </div>
+</div>
+
+<table id="tableData" class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Menu
+            </th>
+        </tr>
+    </thead>
+</table>
+
+@section Scripts {
+    <script src="~/js/dish.js"></script>
+}
