@@ -38,10 +38,17 @@
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Menu" asp-action="Index">Menu</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Dish" asp-action="Index">Dish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
 
                                 </ul>
                             </li>
                         }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                <i class="bi bi-cart3"></i> &nbsp; (0)
+                            </a>
+                        </li>
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -56,7 +63,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted text-center">
         <div class="container">
             Made with <i class="bi bi-heart-fill"></i> by Southern Spice Restaurant.
         </div>

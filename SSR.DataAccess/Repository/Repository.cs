@@ -8,6 +8,7 @@ using SSR.DataAccess.Repository.IRepository;
 using System.Linq.Expressions;
 using SSR.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace SSR.DataAccess.Repository
 {
@@ -29,10 +30,19 @@ namespace SSR.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter, string? includeDishes = null)
+        public T Get(Expression<Func<T, bool>> filter, string? includeDishes = null, bool tracked = false)
 
         {
-            IQueryable<T> query = dbSet;
+            IQueryable<T> query;
+            if (tracked)
+            {
+                query = dbSet;            
+            }
+            else
+            {
+                query = dbSet.AsNoTracking(); //using AsNoTracking method will make sure that EFCore does not track attribute values and update automatically. We want to update any changes to attributes manually. Used in updating ShoppingCart table in HomeController. 
+            }
+
             query = query.Where(filter);
             if (!string.IsNullOrEmpty(includeDishes))
             {
@@ -44,10 +54,14 @@ namespace SSR.DataAccess.Repository
             }
             return query.FirstOrDefault(); //Get method should always return a value.
         }
-        public IEnumerable<T> GetAll(string? includeDishes = null) //includes MenuItems and Id  along with dbSet
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter, string? includeDishes = null) //includes MenuItems and Id  along with dbSet
 
         {
             IQueryable<T> query = dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter); 
+            }
             if (!string.IsNullOrEmpty(includeDishes))
             {
                 foreach (var includeDish in includeDishes  //splitting it because I will be receiving them as comma separated values.

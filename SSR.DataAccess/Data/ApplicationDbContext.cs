@@ -1,12 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SSR.Models;
 using SSR.Models.Models;
 
 namespace SSR.DataAccess.Data
 {
-    
+
 
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
@@ -17,7 +16,12 @@ namespace SSR.DataAccess.Data
 
         public DbSet<MenuItems> Menu { get; set; }
         public DbSet<Dish> Dishes { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

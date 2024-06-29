@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SouthernSpiceRestaurant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72a6814a8efc94c606a3b28a3ea93fc7a2aed0bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da1884b9f50e282a7d70e5c4e0678c9979727045")]
 [assembly: System.Reflection.AssemblyProductAttribute("SouthernSpiceRestaurant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SouthernSpiceRestaurant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

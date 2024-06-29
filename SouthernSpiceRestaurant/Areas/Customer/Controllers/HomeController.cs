@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SSR.DataAccess.Repository;
 using SSR.DataAccess.Repository.IRepository;
 using SSR.Models.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace SouthernSpiceRestaurant.Areas.Customer.Controllers
 {
@@ -26,8 +28,43 @@ namespace SouthernSpiceRestaurant.Areas.Customer.Controllers
 
         public IActionResult DishDetails(int dishId)
         {
-            Dish dish = _unitOfWork.Dish.Get(u => u.Id == dishId, includeDishes: "MenuItems");
-            return View(dish);
+            ShoppingCart cart = new()
+            {
+                Dish = _unitOfWork.Dish.Get(u => u.Id == dishId, includeDishes: "MenuItems"),
+                Count = 1,
+                DishId = dishId
+            };
+            
+            return View(cart);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public IActionResult DishDetails(ShoppingCart shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value; //Getting UserId when the user logs in from the Dish Details page through built in ClaimsIdentity method.
+            shoppingCart.ApplicationUserId = userId;
+
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId &&
+                u.DishId == shoppingCart.DishId);
+
+            if (cartFromDb != null)
+            {
+                //shopping cart already exists
+                cartFromDb.Count += shoppingCart.Count;
+                _unitOfWork.ShoppingCart.Update(cartFromDb);
+            }
+            else
+            {
+                //add new cart record 
+                _unitOfWork.ShoppingCart.Add(shoppingCart);
+            }
+            TempData["success"] = "Cart updated sucessfully.";
+
+            _unitOfWork.Save();
+
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Privacy()

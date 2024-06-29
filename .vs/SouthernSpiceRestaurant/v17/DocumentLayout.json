@@ -1,7 +1,92 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\southernspicerestaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|solutionrelative:southernspicerestaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB97F228-95BA-47B1-98D1-FFB9D3513B69}|SSR.Utility\\SSR.Utility.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB97F228-95BA-47B1-98D1-FFB9D3513B69}|SSR.Utility\\SSR.Utility.csproj|solutionrelative:ssr.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\southernspicerestaurant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|solutionrelative:southernspicerestaurant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\southernspicerestaurant\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|solutionrelative:southernspicerestaurant\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\southernspicerestaurant\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|solutionrelative:southernspicerestaurant\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB97F228-95BA-47B1-98D1-FFB9D3513B69}|SSR.Utility\\SSR.Utility.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB97F228-95BA-47B1-98D1-FFB9D3513B69}|SSR.Utility\\SSR.Utility.csproj|solutionrelative:ssr.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\southernspicerestaurant\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|solutionrelative:southernspicerestaurant\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\southernspicerestaurant\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E77EE23-9A2D-4CE2-AAC1-A157A963D5CB}|SouthernSpiceRestaurant\\SouthernSpiceRestaurant.csproj|solutionrelative:southernspicerestaurant\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.models\\models\\viewmodels\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|solutionrelative:ssr.models\\models\\viewmodels\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\repository\\orderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\repository\\orderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\repository\\irepository\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\repository\\irepository\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\repository\\irepository\\iorderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\repository\\irepository\\iorderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840CD6E1-F2D5-4443-8019-F397B240338B}|SSR.DataAccess\\SSR.DataAccess.csproj|solutionrelative:ssr.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.models\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|solutionrelative:ssr.models\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.models\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|solutionrelative:ssr.models\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.models\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|solutionrelative:ssr.models\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.models\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|solutionrelative:ssr.models\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|c:\\users\\para005\\onedrive - auckland institute of studies\\desktop\\wad_assignment1\\wad_app_assignment1\\southernspicerestaurant\\ssr.models\\models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306D1E85-8C6F-432F-A049-7337D3801EA9}|SSR.Models\\SSR.Models.csproj|solutionrelative:ssr.models\\models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +94,288 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Program.cs",
+              "RelativeDocumentMoniker": "SouthernSpiceRestaurant\\Program.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Program.cs",
+              "RelativeToolTip": "SouthernSpiceRestaurant\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAC4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T15:40:47.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StripeSettings.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Utility\\StripeSettings.cs",
+              "RelativeDocumentMoniker": "SSR.Utility\\StripeSettings.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Utility\\StripeSettings.cs",
+              "RelativeToolTip": "SSR.Utility\\StripeSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T15:39:44.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\appsettings.json",
+              "RelativeDocumentMoniker": "SouthernSpiceRestaurant\\appsettings.json",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\appsettings.json",
+              "RelativeToolTip": "SouthernSpiceRestaurant\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T15:35:43.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T15:09:48.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T14:17:00.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "SouthernSpiceRestaurant\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T14:07:35.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "SouthernSpiceRestaurant\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SouthernSpiceRestaurant\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "SouthernSpiceRestaurant\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAwFsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:06:56.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCartVM.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\ViewModels\\ShoppingCartVM.cs",
+              "RelativeDocumentMoniker": "SSR.Models\\Models\\ViewModels\\ShoppingCartVM.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\ViewModels\\ShoppingCartVM.cs",
+              "RelativeToolTip": "SSR.Models\\Models\\ViewModels\\ShoppingCartVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:05:48.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:02:11.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Utility\\SD.cs",
+              "RelativeDocumentMoniker": "SSR.Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Utility\\SD.cs",
+              "RelativeToolTip": "SSR.Utility\\SD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:45:35.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:01:35.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:58:59.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:58:58.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\OrderHeaderRepository.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Repository\\OrderHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\OrderHeaderRepository.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Repository\\OrderHeaderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:57:44.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Repository\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Repository\\OrderDetailRepository.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Repository\\OrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:56:26.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SSR.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SSR.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:46:00.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "SSR.Models\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "SSR.Models\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:45:15.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "SSR.Models\\Models\\Dish.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\Dish.cs",
+              "RelativeToolTip": "SSR.Models\\Models\\Dish.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:45:05.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SSR.Models\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SSR.Models\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:38:07.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "SSR.Models\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "SSR.Models\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:30:34.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderHeader.cs",
+              "DocumentMoniker": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\OrderHeader.cs",
+              "RelativeDocumentMoniker": "SSR.Models\\Models\\OrderHeader.cs",
+              "ToolTip": "C:\\Users\\para005\\OneDrive - Auckland Institute of Studies\\Desktop\\WAD_Assignment1\\WAD_App_Assignment1\\SouthernSpiceRestaurant\\SSR.Models\\Models\\OrderHeader.cs",
+              "RelativeToolTip": "SSR.Models\\Models\\OrderHeader.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA0wCgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:30:15.968Z",
+              "EditorCaption": ""
             }
           ]
         }

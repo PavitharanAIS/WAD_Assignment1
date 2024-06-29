@@ -30,6 +30,10 @@ body {
   margin-bottom: 60px;
 }
 
+.custom-core-color {
+    color: #FC8019;
+}
+
 .custom-create-menu-container {
     margin-top: 2.5rem;
 }

@@ -58,6 +58,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/para005/OneDrive - Auckland Institute of Studies/Desktop/WAD_Assignment1/WAD_App_Assignment1/SouthernSpiceRestaurant/SouthernSpiceRestaurant/Areas/Customer/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/para005/OneDrive - Auckland Institute of Studies/Desktop/WAD_Assignment1/WAD_App_Assignment1/SouthernSpiceRestaurant/SouthernSpiceRestaurant/Areas/Customer/Views/Cart/OrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxPcmRlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/para005/OneDrive - Auckland Institute of Studies/Desktop/WAD_Assignment1/WAD_App_Assignment1/SouthernSpiceRestaurant/SouthernSpiceRestaurant/Areas/Customer/Views/Cart/Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/para005/OneDrive - Auckland Institute of Studies/Desktop/WAD_Assignment1/WAD_App_Assignment1/SouthernSpiceRestaurant/SouthernSpiceRestaurant/Areas/Customer/Views/Home/DishDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEaXNoRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

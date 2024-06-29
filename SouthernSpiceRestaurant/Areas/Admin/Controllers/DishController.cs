@@ -92,7 +92,7 @@ namespace SouthernSpiceRestaurant.Areas.Admin.Controllers
                         file.CopyTo(fileStream);
                     }
 
-                    dishViewModel.Dish.ImageUrl = @"images\dish\" + fileName;
+                    dishViewModel.Dish.ImageUrl = @"\images\dish\" + fileName;
                 }
 
                 string tempData;
