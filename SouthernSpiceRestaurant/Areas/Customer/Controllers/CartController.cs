@@ -4,6 +4,7 @@ using SSR.DataAccess.Repository.IRepository;
 using SSR.Models.Models;
 using SSR.Models.Models.ViewModels;
 using SSR.Utility;
+using Stripe.Checkout;
 using System.Security.Claims;
 
 namespace SouthernSpiceRestaurant.Areas.Customer.Controllers
@@ -113,12 +114,61 @@ namespace SouthernSpiceRestaurant.Areas.Customer.Controllers
 
             //Capture payment from customer using 'Stripe' Payment.
 
+            var domain = "http://localhost:5296/";
+            var options = new Stripe.Checkout.SessionCreateOptions
+            {
+                SuccessUrl = domain + $"Customer/Cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
+                CancelUrl = domain + "Customer/Cart/Index",
+                LineItems = new List<Stripe.Checkout.SessionLineItemOptions>(),           
+                Mode = "payment",
+            };
 
-            return RedirectToAction(nameof(OrderConfirmation), new {id = ShoppingCartVM.OrderHeader.Id} );
+            foreach (var item in  ShoppingCartVM.ShoppingCartList)
+            {
+                var SessionLineItem = new Stripe.Checkout.SessionLineItemOptions
+                {
+                    PriceData = new Stripe.Checkout.SessionLineItemPriceDataOptions
+                    {
+                        UnitAmount = (long)(item.Price * 100), //eg. $15.20 gets converted to 1520
+                        Currency = "nzd",
+                        ProductData = new Stripe.Checkout.SessionLineItemPriceDataProductDataOptions
+                        {
+                            Name = item.Dish.Name
+                        }
+                    },
+                    Quantity = item.Count
+                };
+                options.LineItems.Add(SessionLineItem);
+            }
+
+            var service = new Stripe.Checkout.SessionService();
+            Session session = service.Create(options);
+            _unitOfWork.OrderHeader.UpdateStripePaymentID(ShoppingCartVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
+            _unitOfWork.Save();
+
+            Response.Headers.Add("Location", session.Url);
+
+            return new StatusCodeResult(303);
         }
 
         public IActionResult OrderConfirmation(int id)
         {
+            OrderHeader orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == id, includeDishes: "ApplicationUser");
+            var service = new Stripe.Checkout.SessionService();
+            Session session = service.Get(orderHeader.SessionId);
+
+            if (session.PaymentStatus.ToLower() == "paid")
+            {
+                _unitOfWork.OrderHeader.UpdateStripePaymentID(id, session.Id, session.PaymentIntentId);
+                _unitOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
+                _unitOfWork.Save();
+            }
+
+            List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart.
+                GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+
+            _unitOfWork.Save();
+
             return View(id);
         }
 

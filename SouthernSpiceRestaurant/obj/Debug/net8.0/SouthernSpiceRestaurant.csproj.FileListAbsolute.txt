@@ -293,3 +293,4 @@ C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment
 C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SouthernSpiceRestaurant\obj\Debug\net8.0\SouthernSpiceRestaurant.pdb
 C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SouthernSpiceRestaurant\obj\Debug\net8.0\SouthernSpiceRestaurant.genruntimeconfig.cache
 C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SouthernSpiceRestaurant\obj\Debug\net8.0\ref\SouthernSpiceRestaurant.dll
+C:\Users\para005\OneDrive - Auckland Institute of Studies\Desktop\WAD_Assignment1\WAD_App_Assignment1\SouthernSpiceRestaurant\SouthernSpiceRestaurant\bin\Debug\net8.0\Stripe.net.dll
